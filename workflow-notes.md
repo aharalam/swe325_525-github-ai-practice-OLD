@@ -52,7 +52,7 @@ The issue defines what needs to be done and how success will be checked.
 
 The feature branch provides a place to make those changes separately from main. Commits record meaningful stages of progress on that branch.
 
-The pull request connects the proposed changes to the issue and provide a place to review them. The review will identify a specific strength and an improvement, question, or clarification. I will respond to the feedback and make another feature-branch commit if a change is needed.
+The pull request connects the proposed changes to the issue and provides a place to review them. My self-review identified a strength in the documentation and an improvement to its tense. I updated the pull-request descriptions and responded to the review.
 
 Once the work is ready, merging the pull request will bring the changes into main. I will retain the feature branch as required by the lab.
 
@@ -78,11 +78,11 @@ Feature-branch history:
 https://github.com/aharalam/swe325_525-github-ai-practice/commits/feature/github-ai-workflow
 
 ## Pull Request
-- Pull-request URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2
+- Pull request URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2
 - Source branch: feature/github-ai-workflow
 - Target branch: main
 
-The pull-request description includes:
+The pull request description includes:
 - A summary of the changes.
 - A link to issue #1.
 - A checklist matching the acceptance criteria.
@@ -91,10 +91,11 @@ The pull-request description includes:
 - Known limitations or follow-up work.
 
 ## Review
-- Review-comment URL: Pending.
-- Specific strength identified: Pending.
-- Improvement, question, or clarification identified: Pending.
-- Response and any resulting changes: Pending.
+- Review-comment URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2#issuecomment-5897699747
+- Specific strength identified: Direct links to three meaningful commits, clear documentation, and accurate AI-use records.
+- Improvement identified: Use present tense for completed workflow steps.
+- Response and resulting changes: Updated the pull request descriptions to present tense while retaining future tense for pending steps.
+- Response URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2#issuecomment-5897750894
 
 ## Merge and Final Verification
 - Merge status: Pending.
