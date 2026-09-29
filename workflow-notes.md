@@ -33,7 +33,7 @@ A commit records a snapshot of the repository's tracked files. Its message expla
 
 A pull request proposes merging changes from one branch into another. It allows the changes to be inspected, discussed, and revised before they are merged.
 
-For this lab, the pull request will propose merging feature/github-ai-workflow into main.
+For this lab, the pull request proposes merging feature/github-ai-workflow into main.
 
 ### Default Branch
 
