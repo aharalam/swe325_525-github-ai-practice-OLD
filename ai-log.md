@@ -1,0 +1,164 @@
+# AI-Use Log
+
+* Student: Andrew Haralambous
+* Course: SWE 525
+* Assignment: Lab 8 - GitHub Issues
+* Assistant: OpenAI Codex
+* Dates of the interactions recorded below: September 24 and September 29, 2026
+* Status: Reflections and log review completed. Pull request opened, self-review posted, and feedback addressed. Merge and final verification remain pending.
+
+This log was drafted by Codex from the actual conversation at my request. Related follow-up questions are grouped with their original task. Prompts labeled as summaries are faithful summaries rather than exact quotations. AI assistance included explanations, drafting, review, and authorized Git operations. AI checks are identified separately from my own verification.
+
+## Interaction 1 - Repository Setup and Issue Drafting
+
+* Date: September 24, 2026
+* Assistant: OpenAI Codex
+* Purpose: Get step-by-step guidance for the lab and define observable acceptance criteria.
+* Prompt or summary: Guide me through Lab 8 under Week 5, including repository setup, the README, and the GitHub issue.
+* Useful output: Suggested repository name and description, initial README content, an issue goal and scope, nine acceptance criteria, and a task checklist.
+* Accepted: Used the suggested issue structure and initial documentation guidance.
+* Changed: The README title combines the repository name with the descriptive title. Student identification was filled in.
+* Rejected: No explicit rejection was recorded in the conversation.
+* Decision: Accepted with edits.
+* Reason: The structure connects the lab's work to observable verification steps.
+* Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/issues/1
+
+## Interaction 2 - Review of the Issue and README Commit
+
+* Date: September 24, 2026
+* Assistant: OpenAI Codex
+* Purpose: Review the issue against the lab requirements and check the README change.
+* Prompt or summary: "Can you verify that I did it correctly?" followed by requests to recheck the issue formatting and README commit.
+* Useful output: Codex checked the saved issue, confirmed its required content, and identified excessive leading spaces that prevented normal Markdown rendering. It later checked that the README change was on the feature branch.
+* Accepted: Followed the formatting correction guidance and requested another review.
+* Changed: Adjusted the issue's indentation and line wrapping. The final version retains valid two-space indentation in places.
+* Rejected: No explicit rejection was recorded. Questions about tabs and verification-line placement were clarification requests.
+* Decision: Accepted; formatting was revised during follow-up.
+* Reason: Correct Markdown makes the headings and task checkboxes usable. The feature-branch check confirms where the README change was recorded.
+* Verification performed by AI: Read the issue through the GitHub connection and compared main with the feature branch. These checks are not being claimed as independent student verification.
+* Related issue: https://github.com/aharalam/swe325_525-github-ai-practice/issues/1
+* Related commit: https://github.com/aharalam/swe325_525-github-ai-practice/commit/49e9bbc92de3d5757f34e5c483d6c537fe5919ee
+
+## Interaction 3 - Explanation of GitHub Concepts
+
+* Date: September 24, 2026
+* Assistant: OpenAI Codex
+* Purpose: Understand repositories, issues, branches, commits, pull requests, and the default branch.
+* Prompt or summary: Explain the differences between those GitHub objects and how they connect in this lab. Follow-up requests asked where the explanation belongs and for complete workflow-notes content in a text file.
+* Useful output: An explanation of each concept and the sequence from an issue to feature-branch commits, pull-request review, and a merge into main. Codex also drafted workflow-notes.md with known links and clearly marked pending entries.
+* Accepted: Used the concept explanations and workflow-notes draft.
+* Changed: The saved notes have some spacing changes. No substantive correction to the explanations was recorded.
+* Rejected: No explicit rejection was recorded.
+* Decision: Accepted.
+* Reason: The explanation connects the GitHub concepts to the actual lab workflow.
+* Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/commit/6e38f28c5cf3fb4c0f56149c829324af024de00d
+
+## Interaction 4 - Correcting an Accidental Commit to Main
+
+* Date: September 24, 2026
+* Assistant: OpenAI Codex
+* Purpose: Identify and correct where the workflow notes were saved.
+* Prompt or summary: I reported that I pushed to main, asked Codex to check, and then asked it to run the local commands to make the correction. I subsequently authorized removing the accidental file from main.
+* Useful output: Codex found that the notes were committed directly to main under the name workflow-notes, without the .md extension. It proposed adding the correctly named file to the feature branch and removing the accidental file through a new cleanup commit.
+* Accepted: Explicitly authorized the feature-branch correction and the cleanup on main.
+* Changed: Revised the original browser-based workflow by asking Codex to use local Git commands after I accidentally committed the notes to main. Branch selection and changes were checked before pushing.
+* Rejected: No explicit rejection of a suggestion was recorded. The GitHub write failed because of integration permissions; that was a tool failure, not a student rejection.
+* Decision: Revised the workflow approach and accepted the proposed file correction and cleanup.
+* Reason: Using explicit branch commands and checking changes before pushing helped me follow the intended feature-branch workflow.
+* Actions performed by AI: Cloned the repository, created and pushed workflow-notes.md on feature/github-ai-workflow, removed workflow-notes from main in a separate commit, and returned the local checkout to the feature branch.
+* Limitation: The original direct-to-main commit remains in history; the correction does not erase that deviation from the lab's requested workflow.
+* Corrected file commit: https://github.com/aharalam/swe325_525-github-ai-practice/commit/6e38f28c5cf3fb4c0f56149c829324af024de00d
+* Cleanup commit: https://github.com/aharalam/swe325_525-github-ai-practice/commit/54ec6e5aa9eab7366f253b02e7589c84db55e252
+
+## Interaction 5 - Proposed README Improvement
+
+* Date: September 24, 2026
+* Assistant: OpenAI Codex
+* Purpose: Request a proposed improvement that would help visitors use the README.
+* Prompt or summary: After discussing the proposed README-review prompt, I asked Codex to do that next step for me.
+* Useful output: Replace the plain documentation list with a clickable workflow-notes.md link, omit the unnecessary README self-reference, and label ai-log.md as coming soon until it exists.
+* Accepted: Explicitly approved the suggestion by replying, "Go ahead and do that."
+* Changed: No additional student revision to the proposed section was recorded.
+* Rejected: None recorded for this suggestion.
+* Decision: Accepted.
+* Reason: The proposed improvement lets readers navigate directly to the workflow notes and avoids linking to an AI log that does not yet exist.
+* Actions performed by AI: Edited README.md, checked that the workflow-notes link target exists, and committed and pushed the change on the feature branch.
+* Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/commit/145bcab2206acbc80af51cf6e1fa116e98c615be
+
+## Interaction 6 - Drafting This AI Log
+
+* Date: September 24, 2026
+* Assistant: OpenAI Codex
+* Purpose: Consolidate the actual AI interactions, decisions, and supporting links.
+* Prompt: "Go ahead and create ai-log.md"
+* Useful output: This log, with the explanation, review, and proposed-improvement interactions identified and additional assistance disclosed.
+* Accepted: Reviewed the log and confirmed that it accurately reflects my work on September 29, 2026.
+* Changed: No further changes to the interaction summaries or reflection answers were requested during final review.
+* Rejected: None during final review.
+* Decision: Reviewed and approved on September 29, 2026.
+* Reason: Keep a traceable record of AI assistance without inventing personal reflections or decisions.
+* Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/blob/feature/github-ai-workflow/ai-log.md
+
+## Interaction 7 - Progress and Assignment Requirements Review
+
+* Date: September 29, 2026
+* Assistant: OpenAI Codex
+* Purpose: Resume the lab and check the AI log against the assignment requirements.
+* Prompt or summary: Remind me where we left off and guide me through the remaining steps. After reviewing the log, I confirmed that it accurately reflects my work and asked whether it meets the assignment requirements.
+* Useful output: Identified the completed commits and reflections, checked the log against the required prompt categories and documentation fields, and identified outdated review-status entries. Pull-request work, final workflow links, and the submission package remain unfinished.
+* Accepted: Accepted the recommendation to update the review status and record this requirements check.
+* Changed: Review-status entries now reflect my approval; the existing reflection answers remain unchanged.
+* Rejected: No substantive requirements-review suggestion was rejected.
+* Decision: Accepted.
+* Reason: Keep the log consistent with completed work and the remaining assignment steps.
+* Verification performed by AI: Compared the saved log with the assignment PDF and inspected local Git history and GitHub issue and pull-request information. This requirements check is separate from my confirmation that the log accurately reflects my work.
+* Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/blob/feature/github-ai-workflow/ai-log.md
+
+## Interaction 8 - Pull Request and Self-Review Guidance
+
+* Date: September 29, 2026
+* Assistant: OpenAI Codex
+* Purpose: Prepare the pull request and complete the review workflow.
+* Prompt or summary: Update the commit links, open the pull request, and explain what to include in a self-review and response.
+* Useful output: A structured pull-request description, suggested review wording, and guidance for updating workflow notes.
+* Accepted: Used the pull-request structure and guidance on identifying a strength and an improvement.
+* Changed: Wrote my own initial review comment and updated the workflow descriptions after reviewing the feedback.
+* Rejected: No substantive review suggestion was rejected.
+* Decision: Accepted with edits.
+* Reason: Make the review actionable and keep the documentation consistent with completed steps.
+* Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2
+
+## Required Prompt Categories
+
+* Explanation: Interaction 3.
+* Proposed improvement: Interaction 5.
+* Review or checklist: Interaction 2.
+
+## Reflection
+
+Codex offered example wording for the five reflection questions. I wrote the final responses below in my own words.
+
+### 1\. Which GitHub action or object was most useful to you, and why?
+
+The GitHub action that was most useful to me was branches because they let me work on the lab documentation separately from main. Accidentally committing to main helped me understand why checking the active branch matters.
+
+### 2\. Which AI suggestion did you accept, and what made it useful?
+
+The AI suggestion I got was to add clickable documentation links to my README. This made it more useful because readers can open the workflow notes and AI-use log directly instead of searching through the repository's files.
+
+### 3\. Which AI suggestion did you revise or reject, and why?
+
+The AI suggestion that I revised was the suggestion to make all changes through GitHub's browser editor. After accidentally committing to main, I chose to use local Git commands with AI assistance. This made the branch selection explicit and allowed the changes to be checked before pushing.
+
+### 4\. What did you verify yourself instead of trusting the AI?
+
+I checked the README commit message myself instead of relying only on the AI's report. I also checked which branch I was using before editing files.
+
+### 5\. What would you change in your GitHub workflow next time?
+
+Next time, I would check the active branch before editing or committing files and confirm that filenames include the correct extension. I would also review each commit before pushing so I can catch mistakes, such as saving workflow notes directly to main.
+
+## Remaining Work
+
+* Add later AI interactions and pull-request links when applicable.
+* Complete the merge, final verification, and submission package.
