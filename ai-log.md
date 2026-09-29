@@ -5,7 +5,7 @@
 * Assignment: Lab 8 - GitHub Issues
 * Assistant: OpenAI Codex
 * Dates of the interactions recorded below: September 24 and September 29, 2026
-* Status: Reflections completed; log reviewed and approved on September 29, 2026. Pull-request documentation and merge remain pending.
+* Status: Reflections and log review completed. Pull request opened, self-review posted, and feedback addressed. Merge and final verification remain pending.
 
 This log was drafted by Codex from the actual conversation at my request. Related follow-up questions are grouped with their original task. Prompts labeled as summaries are faithful summaries rather than exact quotations. AI assistance included explanations, drafting, review, and authorized Git operations. AI checks are identified separately from my own verification.
 
@@ -114,6 +114,20 @@ This log was drafted by Codex from the actual conversation at my request. Relate
 * Verification performed by AI: Compared the saved log with the assignment PDF and inspected local Git history and GitHub issue and pull-request information. This requirements check is separate from my confirmation that the log accurately reflects my work.
 * Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/blob/feature/github-ai-workflow/ai-log.md
 
+## Interaction 8 - Pull Request and Self-Review Guidance
+
+* Date: September 29, 2026
+* Assistant: OpenAI Codex
+* Purpose: Prepare the pull request and complete the review workflow.
+* Prompt or summary: Update the commit links, open the pull request, and explain what to include in a self-review and response.
+* Useful output: A structured pull-request description, suggested review wording, and guidance for updating workflow notes.
+* Accepted: Used the pull-request structure and guidance on identifying a strength and an improvement.
+* Changed: Wrote my own initial review comment and updated the workflow descriptions after reviewing the feedback.
+* Rejected: No substantive review suggestion was rejected.
+* Decision: Accepted with edits.
+* Reason: Make the review actionable and keep the documentation consistent with completed steps.
+* Related GitHub URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2
+
 ## Required Prompt Categories
 
 * Explanation: Interaction 3.
@@ -147,4 +161,4 @@ Next time, I would check the active branch before editing or committing files an
 ## Remaining Work
 
 * Add later AI interactions and pull-request links when applicable.
-* Complete the pull-request review and merge before claiming the lab is finished.
+* Complete the merge, final verification, and submission package.
