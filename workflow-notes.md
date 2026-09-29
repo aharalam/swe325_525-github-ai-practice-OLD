@@ -52,7 +52,7 @@ The issue defines what needs to be done and how success will be checked.
 
 The feature branch provides a place to make those changes separately from main. Commits record meaningful stages of progress on that branch.
 
-The pull request will connect the proposed changes to the issue and provide a place to review them. The review will identify a specific strength and an improvement, question, or clarification. I will respond to the feedback and make another feature-branch commit if a change is needed.
+The pull request connects the proposed changes to the issue and provide a place to review them. The review will identify a specific strength and an improvement, question, or clarification. I will respond to the feedback and make another feature-branch commit if a change is needed.
 
 Once the work is ready, merging the pull request will bring the changes into main. I will retain the feature branch as required by the lab.
 
