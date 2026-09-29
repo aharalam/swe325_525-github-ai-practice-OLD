@@ -78,11 +78,11 @@ Feature-branch history:
 https://github.com/aharalam/swe325_525-github-ai-practice/commits/feature/github-ai-workflow
 
 ## Pull Request
-- Pull-request URL: Pending - the pull request has not been opened yet.
+- Pull-request URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2
 - Source branch: feature/github-ai-workflow
 - Target branch: main
 
-The pull-request description will include:
+The pull-request description includes:
 - A summary of the changes.
 - A link to issue #1.
 - A checklist matching the acceptance criteria.
