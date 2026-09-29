@@ -12,7 +12,7 @@
 ## Purpose and Scope
 This repository documents my practice with GitHub issues, branches, commits, pull requests, reviews, and responsible AI assistance.
 
-The assignment is limited to GitHub workflow and AI-use documentation. The planned documentation files are README.md, workflow-notes.md, and ai-log.md.
+The assignment is limited to GitHub workflow and AI-use documentation. The documentation files are README.md, workflow-notes.md, and ai-log.md.
 
 ## GitHub Concepts
 
@@ -33,11 +33,11 @@ A commit records a snapshot of the repository's tracked files. Its message expla
 
 A pull request proposes merging changes from one branch into another. It allows the changes to be inspected, discussed, and revised before they are merged.
 
-For this lab, the pull request proposes merging feature/github-ai-workflow into main.
+For this lab, pull request #2 merged feature/github-ai-workflow into main on September 29, 2026.
 
 ### Default Branch
 
-The default branch is the repository's primary branch. In this repository, it is main. After the pull request is merged, main will contain the completed documentation.
+The default branch is the repository's primary branch. In this repository, it is main. After the merge, main contains README.md, workflow-notes.md, and ai-log.md.
 
 ## Issue and Acceptance Criteria
 - Issue: https://github.com/aharalam/swe325_525-github-ai-practice/issues/1
@@ -54,7 +54,7 @@ The feature branch provides a place to make those changes separately from main. 
 
 The pull request connects the proposed changes to the issue and provides a place to review them. My self-review identified a strength in the documentation and an improvement to its tense. I updated the pull-request descriptions and responded to the review.
 
-Once the work is ready, merging the pull request will bring the changes into main. I will retain the feature branch as required by the lab.
+Merging pull request #2 brought the changes into main. The feature branch is retained as required by the lab.
 
 ## Meaningful Commits
 The initial repository setup commit is separate from the three required feature-branch commits.
@@ -98,13 +98,13 @@ The pull request description includes:
 - Response URL: https://github.com/aharalam/swe325_525-github-ai-practice/pull/2#issuecomment-5897750894
 
 ## Merge and Final Verification
-- Merge status: Pending.
-- Merge URL: Pending.
+- Merge status: Pull request #2 merged on September 29, 2026.
+- Merge URL: https://github.com/aharalam/swe325_525-github-ai-practice/commit/27c7d4e667e6f27458765e6fd1a52c8d32f1be12
 - Default-branch history: https://github.com/aharalam/swe325_525-github-ai-practice/commits/main
 
-After merging, I will verify that:
+Post-merge checks performed by Codex on September 29, 2026:
 - main contains the completed README.md, workflow-notes.md, and ai-log.md.
 - The history preserves the three meaningful feature-branch commits.
 - The feature branch has not been deleted.
-- The documentation links work.
-- The issue's acceptance criteria accurately reflect the completed work.
+- The README documentation links resolve to the merged files, and the issue, pull-request, review, branch, and commit references match the verified repository records.
+- Final checklist updates and the submission package are tracked separately in issue #1.
