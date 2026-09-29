@@ -62,17 +62,17 @@ The initial repository setup commit is separate from the three required feature-
 ### Commit 1 - README Improvements
 - Message: Clarify repository scope and document planned workflow
 - Changes: Added the documentation list and planned workflow to README.md.
-- Commit URL: Pending - add the direct link to this commit.
+- Commit URL: https://github.com/aharalam/swe325_525-github-ai-practice/commit/49e9bbc92de3d5757f34e5c483d6c537fe5919ee
 
 ### Commit 2 - Workflow Notes
-- Planned message: Document GitHub concepts and workflow details
-- Changes: Add workflow-notes.md with concept explanations, repository information, and workflow documentation.
-- Commit URL: Pending - add after committing this file.
+- Message: Document GitHub concepts and workflow details
+- Changes: Added workflow-notes.md with concept explanations, repository information, and workflow documentation.
+- Commit URL: https://github.com/aharalam/swe325_525-github-ai-practice/commit/6e38f28c5cf3fb4c0f56149c829324af024de00d
 
 ### Commit 3 - AI-Use Record
-- Planned message: Add AI-use record
-- Planned changes: Add ai-log.md documenting AI interactions and decisions.
-- Commit URL: Pending - add after creating this commit.
+- Message: Add AI-use record and link it from README
+- Changes: Added ai-log.md documenting AI interactions and decisions, and linked it from README.md.
+- Commit URL: https://github.com/aharalam/swe325_525-github-ai-practice/commit/eac2ef62fd9b5c8b7a3705352c5bdcf966a6b345
 
 Feature-branch history:
 https://github.com/aharalam/swe325_525-github-ai-practice/commits/feature/github-ai-workflow
